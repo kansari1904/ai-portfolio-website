@@ -1,0 +1,209 @@
+{
+    "personal_details": {
+        "name": "MD KHALID ANSARI",
+        "current_location": "Bengaluru, Karnataka, India",
+        "contact_number": "+91 8936866389",
+        "email_address": "kansari1904@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/kansari1904/",
+        "github": "https://github.com/kansari1904",
+        "leetcode": "https://leetcode.com/u/Kansari1904/"
+    },
+    "professional_summary": "Full-Stack Developer skilled in Python, JavaScript, Node.js, React.js, and REST API development, with hands-on experience building production-grade MERN applications and JWT-secured backends. AI Engineering focus: proven track record integrating LLM APIs (OpenAI, Gemini, Groq) into full-stack products, building RAG pipelines with LangChain, AI agents with LangGraph, and using Pydantic for structured, reliable AI outputs seeking Software Development or AI Engineering roles to build scalable, intelligent applications.",
+    "technical_skills": {
+        "languages": [
+            "Python",
+            "JavaScript",
+            "Java",
+            "SQL"
+        ],
+        "ai_ml": [
+            "LangGraph",
+            "LangChain",
+            "RAG",
+            "Tool calling",
+            "Hugging Face",
+            "Pinecone",
+            "FAISS"
+        ],
+        "frontend": [
+            "React.js",
+            "HTML5",
+            "Tailwind CSS",
+            "React Hooks",
+            "React Router DOM",
+            "Context API"
+        ],
+        "backend": [
+            "Node.js",
+            "Express.js",
+            "FastAPI",
+            "REST API Development",
+            "JWT Authentication"
+        ],
+        "databases": [
+            "VectorDB",
+            "MongoDB",
+            "MySQL"
+        ],
+        "developer_tools": [
+            "Git",
+            "GitHub",
+            "VS Code",
+            "Postman",
+            "AI copilots"
+        ]
+    },
+    "experiences": [
+        {
+            "role": "AI Engineer Intern",
+            "company_name": "CalQuity Technologies Pvt. Ltd.",
+            "start_date": "May 2026",
+            "end_date": "Aug 2026",
+            "current_status": "completed",
+            "tech_stack": [
+                "LangGraph",
+                "LangChain",
+                "Hugging Face",
+                "FastAPI",
+                "React.js",
+                "RAG",
+                "Tool calling"
+            ],
+            "description": "Built a fully automated internal AI customer support agent using LangGraph and LangChain, orchestrating parallel workflows to resolve customer queries end-to-end and auto-raise support tickets without human intervention. Implemented a RAG pipeline with Hugging Face models to ground responses in internal knowledge-base documents, combined with tool calling to trigger backend actions like ticket creation and query resolution in real time. Exposed the agent through a FastAPI backend integrated with a React.js frontend, delivering an end-to-end internal support tool from query intake to automated resolution."
+        },
+        {
+            "role": "Web Developer Intern",
+            "company_name": "InnoByte Services",
+            "start_date": "Aug 2025",
+            "end_date": "Jan 2026",
+            "current_status": "completed",
+            "tech_stack": [
+                "React.js",
+                "Tailwind CSS",
+                "GSAP"
+            ],
+            "description": "Designed and developed a fully responsive website using React.js and Tailwind CSS, achieving 100% mobile responsiveness across all major devices and browsers, improving overall UI/UX quality. Implemented GSAP animations to enhance user interface interactions, increasing estimated user engagement by 25% compared to the static version of the site."
+        }
+    ],
+    "education": [
+        {
+            "course": "B.E. in Computer Science and Engineering",
+            "college_name": "Chandigarh University, Mohali",
+            "duration": "2021 – 2025",
+            "cgpa": "7.6 / 10.0",
+            "coursework": [
+                "Data Structures and Algorithms",
+                "Computer Networks",
+                "DBMS",
+                "Object Oriented Programming"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "project_title": "DocuMind-AI",
+            "project_type": "AI-Powered Learning Platform",
+            "description": "Built a full-stack AI-powered learning platform using the MERN stack with 100% responsive design, integrating Google Gemini AI to auto-generate flashcards, quizzes, and summaries from PDFs, reducing study prep time by 60%. Implemented JWT authentication, PDF upload, embedded viewer, and Progress Tracking Dashboard with lazy loading, reducing page load time by 40% and improving user retention by 35%.",
+            "tech_stack": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "Tailwind CSS",
+                "LLM API Integration",
+                "JWT",
+                "REST API"
+            ],
+            "features": [
+                "Auto-generate flashcards, quizzes, and summaries from PDFs",
+                "JWT authentication",
+                "PDF upload",
+                "Embedded viewer",
+                "Progress Tracking Dashboard with lazy loading"
+            ],
+            "contribution": [
+                "Built the full-stack AI-powered learning platform"
+            ],
+            "live_link": "https://khaliddocumindai.vercel.app/"
+        },
+        {
+            "project_title": "AI Customer Support Agent",
+            "project_type": "AI Agent",
+            "description": "Developed a RAG-based Customer Support Agent using Python and LangChain that answers customer queries using RAG over company knowledge-base documents and LLM-powered responses. Implemented tool calling and structured outputs to handle tasks such as order-status lookup and support-query classification, providing context-aware responses and automated customer assistance.",
+            "tech_stack": [
+                "Python",
+                "LangChain",
+                "Groq LLM",
+                "RAG",
+                "ChromaDB",
+                "FastAPI",
+                "Pydantic",
+                "REST API"
+            ],
+            "features": [
+                "RAG-based query answering",
+                "Tool calling",
+                "Structured outputs",
+                "Order-status lookup",
+                "Support-query classification"
+            ],
+            "contribution": [
+                "Developed the RAG-based Customer Support Agent"
+            ],
+            "live_link": "https://github.com/kansari1904/AI-Customer-Suppport-Agent"
+        },
+        {
+            "project_title": "CodeGyan E-Learning Platform",
+            "project_type": "E-Learning Platform",
+            "description": "Built a full-stack e-learning platform with 30+ tutorials, 50+ challenges, and multi-role support (Admin, Instructor, Student) with JWT/OAuth 2.0 authentication and RBAC, reducing unauthorized access by 40%. Integrated Nodemailer OTP-based email authentication, improving platform security by 35%.",
+            "tech_stack": [
+                "React.js",
+                "Node.js",
+                "Express.js",
+                "MongoDB",
+                "JWT",
+                "OAuth 2.0",
+                "RBAC"
+            ],
+            "features": [
+                "30+ tutorials",
+                "50+ challenges",
+                "Multi-role support (Admin, Instructor, Student)",
+                "JWT/OAuth 2.0 authentication",
+                "RBAC",
+                "Nodemailer OTP-based email authentication"
+            ],
+            "contribution": [
+                "Built the full-stack e-learning platform"
+            ],
+            "live_link": "https://code-gyan.vercel.app/"
+        }
+    ],
+    "achievements": [
+        "Solved 300+ DSA problems on LeetCode and GeeksforGeeks, demonstrating strong problem-solving and algorithmic skills."
+    ],
+    "certifications": [
+        "HackerRank JavaScript Certificate, 2024."
+    ],
+    "career_preferences": {
+        "target_roles": [
+            "Software Development",
+            "AI Engineering"
+        ],
+        "preferred_work_mode": [
+            "Remote",
+            "Hybrid",
+            "Onsite"
+        ],
+        "preferred_locations": [
+            "Bengaluru"
+        ]
+    },
+    "strengths": [
+        "Full-stack development across the MERN stack (React, Node.js, Express, MongoDB)",
+        "AI/LLM integration and RAG pipelines with LangChain; AI agents built with LangGraph",
+        "Structured, reliable AI outputs using Pydantic, tool calling, and AI agent workflows",
+        "REST API design with JWT/OAuth 2.0-secured backends; 300+ DSA problems solved"
+    ],
+    "additional_information": []
+}

@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-dotenv
+email-validator
+pytest
+pymupdf
+langchain
+langchain-openrouter
+langchain-text-splitters
+langchain-huggingface
+sentence-transformers
+langchain-chroma
+chromadb

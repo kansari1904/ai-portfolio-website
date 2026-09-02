@@ -1,0 +1,277 @@
+{
+    "version": "1.0",
+    "description": "Recruiter and HR-focused FAQ knowledge base for Khalid Ansari's AI/Software Engineering portfolio.",
+    "candidate": "Md Khalid Ansari",
+    "faqs": [
+        {
+            "id": "faq_001",
+            "category": "introduction",
+            "question": "Tell me about yourself.",
+            "answer": "I am Md Khalid Ansari, a Computer Science and Engineering graduate with hands-on experience in full-stack development and AI engineering. I work with Python, JavaScript, React.js, Node.js, FastAPI, REST APIs, LangChain, LangGraph, RAG, tool calling, and LLM APIs. During my AI Engineer internship at CalQuity Technologies, I worked on an AI customer support agent using LangGraph, LangChain, RAG, and tool calling. I have also built AI-powered and full-stack projects such as DocuMind-AI, an AI Customer Support Agent, and CodeGyan. I am currently targeting Software Development and AI Engineering opportunities."
+        },
+        {
+            "id": "faq_002",
+            "category": "introduction",
+            "question": "Give me a brief introduction.",
+            "answer": "I am a B.E. Computer Science and Engineering graduate with practical experience in software development and AI engineering. My strongest areas are Python, JavaScript, React.js, Node.js, FastAPI, RAG, LangChain, LangGraph, and LLM API integration. I enjoy building end-to-end intelligent applications that combine reliable backend systems with AI capabilities."
+        },
+        {
+            "id": "faq_003",
+            "category": "motivation",
+            "question": "Why do you want to work in AI engineering?",
+            "answer": "I enjoy combining software engineering with practical AI capabilities. My experience building RAG pipelines, LLM-powered applications, tool-calling workflows, and LangGraph agents has shown me how AI can solve real business problems. AI engineering is a strong fit because it allows me to use my backend and full-stack development skills while building intelligent systems."
+        },
+        {
+            "id": "faq_004",
+            "category": "motivation",
+            "question": "Why are you interested in software engineering?",
+            "answer": "I enjoy solving problems by designing and building complete software systems. My experience with React, Node.js, Express, FastAPI, REST APIs, databases, authentication, and AI integrations has given me an end-to-end development perspective. I want to continue improving my engineering fundamentals while building scalable and useful products."
+        },
+        {
+            "id": "faq_005",
+            "category": "career",
+            "question": "What type of roles are you looking for?",
+            "answer": "I am primarily looking for Software Development and AI Engineering roles, including opportunities where I can work on backend systems, full-stack applications, LLM applications, RAG pipelines, AI agents, and intelligent automation."
+        },
+        {
+            "id": "faq_006",
+            "category": "career",
+            "question": "What work modes are you open to?",
+            "answer": "I am open to Remote, Hybrid, and Onsite opportunities."
+        },
+        {
+            "id": "faq_007",
+            "category": "career",
+            "question": "Where are you looking for opportunities?",
+            "answer": "Bengaluru is my preferred location, and I am also open to Remote, Hybrid, and Onsite opportunities."
+        },
+        {
+            "id": "faq_008",
+            "category": "education",
+            "question": "What is your educational background?",
+            "answer": "I completed a B.E. in Computer Science and Engineering from Chandigarh University, Mohali, from 2021 to 2025. My CGPA is 7.6/10. My relevant coursework includes Data Structures and Algorithms, Computer Networks, DBMS, and Object-Oriented Programming."
+        },
+        {
+            "id": "faq_009",
+            "category": "education",
+            "question": "What is your CGPA?",
+            "answer": "My B.E. in Computer Science and Engineering CGPA is 7.6/10."
+        },
+        {
+            "id": "faq_010",
+            "category": "experience",
+            "question": "Tell me about your AI Engineer internship.",
+            "answer": "I worked as an AI Engineer Intern at CalQuity Technologies Pvt. Ltd. from May 2026 to August 2026. I built a fully automated internal AI customer support agent using LangGraph and LangChain, implemented a RAG pipeline using Hugging Face models, integrated tool calling for backend actions such as ticket creation and query resolution, and exposed the system through FastAPI with a React.js frontend."
+        },
+        {
+            "id": "faq_011",
+            "category": "experience",
+            "question": "What did you work on at CalQuity Technologies?",
+            "answer": "At CalQuity, I worked on an internal AI customer support agent. I used LangGraph and LangChain to orchestrate workflows, implemented RAG with Hugging Face models to ground responses in internal knowledge, integrated tool calling for backend actions such as ticket creation and query resolution, and connected the AI agent to a FastAPI backend and React.js frontend."
+        },
+        {
+            "id": "faq_012",
+            "category": "experience",
+            "question": "What technologies did you use at CalQuity?",
+            "answer": "My CalQuity work involved LangGraph, LangChain, Hugging Face, FastAPI, React.js, RAG, and tool calling."
+        },
+        {
+            "id": "faq_013",
+            "category": "experience",
+            "question": "Tell me about your Web Developer internship.",
+            "answer": "I worked as a Web Developer Intern at InnoByte Services from August 2025 to January 2026. My work focused on frontend development using React.js, Tailwind CSS, and GSAP, contributing to responsive and interactive web experiences."
+        },
+        {
+            "id": "faq_014",
+            "category": "experience",
+            "question": "How much professional experience do you have?",
+            "answer": "I have internship experience across software development and AI engineering, including a Web Developer internship at InnoByte Services from August 2025 to January 2026 and an AI Engineer internship at CalQuity Technologies from May 2026 to August 2026."
+        },
+        {
+            "id": "faq_015",
+            "category": "skills",
+            "question": "What are your strongest technical skills?",
+            "answer": "My strongest areas are Python, JavaScript, React.js, Node.js, FastAPI, REST APIs, LangChain, LangGraph, RAG, tool calling, LLM API integration, Pydantic, MongoDB, MySQL, and modern full-stack development."
+        },
+        {
+            "id": "faq_016",
+            "category": "skills",
+            "question": "What AI technologies do you know?",
+            "answer": "I have hands-on experience with LLM APIs including OpenAI, Gemini, and Groq, along with LangChain, LangGraph, RAG, Hugging Face, tool calling, structured outputs, Pydantic, embeddings, and vector databases such as ChromaDB and Pinecone."
+        },
+        {
+            "id": "faq_017",
+            "category": "skills",
+            "question": "What backend technologies do you know?",
+            "answer": "I work with Python, FastAPI, Node.js, Express.js, REST APIs, JWT authentication, Pydantic, and database technologies including MongoDB and MySQL."
+        },
+        {
+            "id": "faq_018",
+            "category": "skills",
+            "question": "What frontend technologies do you know?",
+            "answer": "I work with React.js, JavaScript, HTML5, Tailwind CSS, React Hooks, React Router, Context API, and animation tools such as GSAP."
+        },
+        {
+            "id": "faq_019",
+            "category": "skills",
+            "question": "Do you know Java?",
+            "answer": "Yes. Java is one of my programming languages, and my academic coursework includes Object-Oriented Programming and Data Structures and Algorithms. I have also solved DSA problems using programming languages including Java."
+        },
+        {
+            "id": "faq_020",
+            "category": "ai",
+            "question": "What is your experience with LangGraph?",
+            "answer": "I used LangGraph during my AI Engineer internship at CalQuity to build and orchestrate an internal AI customer support agent. I used it to coordinate workflows and automate customer-query resolution and backend actions."
+        },
+        {
+            "id": "faq_021",
+            "category": "ai",
+            "question": "What is your experience with RAG?",
+            "answer": "I have built RAG-based applications using LangChain, embeddings, vector databases, and LLMs. At CalQuity, I implemented a RAG pipeline using Hugging Face models to ground customer-support responses in internal knowledge-base documents. I also built a separate AI Customer Support Agent using RAG and ChromaDB."
+        },
+        {
+            "id": "faq_022",
+            "category": "ai",
+            "question": "Have you worked with LLM APIs?",
+            "answer": "Yes. I have integrated LLM APIs including OpenAI, Google Gemini, and Groq into applications. I have used LLMs for tasks such as generating learning content, answering knowledge-based questions, and powering AI agents."
+        },
+        {
+            "id": "faq_023",
+            "category": "ai",
+            "question": "Have you worked with tool calling?",
+            "answer": "Yes. I have implemented tool calling in AI-agent projects. At CalQuity, tool calling was used to trigger backend actions such as ticket creation and query resolution. My AI Customer Support Agent also uses tool calling for tasks such as order-status lookup."
+        },
+        {
+            "id": "faq_024",
+            "category": "projects",
+            "question": "What projects have you built?",
+            "answer": "I have built three major projects: DocuMind-AI, an AI-powered learning platform; AI Customer Support Agent, a RAG-based AI agent; and CodeGyan, a full-stack e-learning platform."
+        },
+        {
+            "id": "faq_025",
+            "category": "projects",
+            "question": "Tell me about DocuMind-AI.",
+            "answer": "DocuMind-AI is a full-stack AI-powered learning platform built with the MERN stack and Google Gemini. Users can upload PDFs and generate flashcards, quizzes, and summaries. The platform also includes JWT authentication, an embedded PDF viewer, and a progress-tracking dashboard with lazy loading."
+        },
+        {
+            "id": "faq_026",
+            "category": "projects",
+            "question": "What is the AI Customer Support Agent?",
+            "answer": "It is a RAG-based customer support agent built with Python and LangChain. It uses company knowledge-base documents to answer customer queries and uses tool calling and structured outputs for tasks such as order-status lookup and support-query classification. The project uses Groq LLM, ChromaDB, FastAPI, Pydantic, and REST APIs."
+        },
+        {
+            "id": "faq_027",
+            "category": "projects",
+            "question": "Tell me about CodeGyan.",
+            "answer": "CodeGyan is a full-stack e-learning platform built using the MERN stack. It demonstrates practical full-stack development including frontend and backend integration, authentication, APIs, database interaction, and user-facing learning functionality."
+        },
+        {
+            "id": "faq_028",
+            "category": "projects",
+            "question": "Which of your projects demonstrates AI skills best?",
+            "answer": "The AI Customer Support Agent and DocuMind-AI demonstrate my AI application development skills most directly. The Customer Support Agent focuses on RAG, tool calling, structured outputs, vector search, and AI-agent workflows, while DocuMind-AI demonstrates LLM API integration inside a full-stack product."
+        },
+        {
+            "id": "faq_029",
+            "category": "projects",
+            "question": "Which project demonstrates your full-stack skills?",
+            "answer": "DocuMind-AI and CodeGyan both demonstrate my full-stack skills. They involve frontend development, backend APIs, database integration, authentication, and end-to-end application development."
+        },
+        {
+            "id": "faq_030",
+            "category": "problem_solving",
+            "question": "How strong are your DSA skills?",
+            "answer": "I have solved 300+ DSA problems on LeetCode and GeeksforGeeks. This has helped me strengthen my problem-solving, algorithmic thinking, and understanding of core data structures and algorithms."
+        },
+        {
+            "id": "faq_031",
+            "category": "problem_solving",
+            "question": "How many DSA problems have you solved?",
+            "answer": "I have solved 300+ DSA problems on LeetCode and GeeksforGeeks."
+        },
+        {
+            "id": "faq_032",
+            "category": "strengths",
+            "question": "What are your strengths?",
+            "answer": "My strengths include problem-solving, full-stack development, practical AI application development, learning new technologies quickly, and building end-to-end solutions. I particularly enjoy connecting backend engineering with LLM and RAG capabilities."
+        },
+        {
+            "id": "faq_033",
+            "category": "strengths",
+            "question": "Why should we hire you?",
+            "answer": "I bring a combination of software engineering fundamentals and practical AI development experience. I can work across frontend and backend systems while also building RAG pipelines, integrating LLM APIs, and developing AI agents. My internship experience and projects show that I can turn these technologies into working applications rather than only knowing them theoretically."
+        },
+        {
+            "id": "faq_034",
+            "category": "strengths",
+            "question": "What makes you different from other fresh graduates?",
+            "answer": "Along with my computer science fundamentals and 300+ DSA problems, I have practical experience building complete software products and AI applications. I have worked with RAG, LangChain, LangGraph, tool calling, LLM APIs, FastAPI, React, and databases, giving me experience across both traditional software engineering and modern AI application development."
+        },
+        {
+            "id": "faq_035",
+            "category": "learning",
+            "question": "How do you learn new technologies?",
+            "answer": "I prefer learning by understanding the fundamentals and then applying them in projects. I usually start with documentation and core concepts, build a small working example, and then integrate the technology into a larger application. This approach has helped me learn tools such as LangChain, LangGraph, RAG, FastAPI, and LLM APIs."
+        },
+        {
+            "id": "faq_036",
+            "category": "learning",
+            "question": "How do you keep up with AI technologies?",
+            "answer": "I focus on practical AI engineering concepts such as LLM APIs, RAG, embeddings, vector databases, tool calling, structured outputs, and agent workflows. I learn new frameworks by understanding the underlying concepts and then implementing them in projects."
+        },
+        {
+            "id": "faq_037",
+            "category": "teamwork",
+            "question": "How do you approach teamwork?",
+            "answer": "I approach teamwork by communicating clearly, understanding the shared goal, breaking work into manageable tasks, and keeping interfaces between components well defined. In software projects, I also value code readability, version control, and clear API contracts so that different parts of a system can be developed efficiently."
+        },
+        {
+            "id": "faq_038",
+            "category": "problem_solving",
+            "question": "How do you approach a difficult technical problem?",
+            "answer": "I first break the problem into smaller parts and identify the actual source of the issue. Then I verify assumptions, reproduce the problem, check relevant documentation or logs, and test a focused solution. After solving it, I try to understand why the issue occurred so I can avoid similar problems in the future."
+        },
+        {
+            "id": "faq_039",
+            "category": "ai",
+            "question": "How do you make an AI application reliable?",
+            "answer": "I focus on grounding the model with relevant information using RAG, validating structured outputs with Pydantic, controlling tool access, separating deterministic logic from LLM reasoning, and keeping application data outside the model's assumptions. Retrieval quality and clear prompts are also important for reducing unsupported answers."
+        },
+        {
+            "id": "faq_040",
+            "category": "career",
+            "question": "Are you open to relocation?",
+            "answer": "I am primarily interested in opportunities in Bengaluru and am open to Remote, Hybrid, and Onsite work arrangements."
+        },
+        {
+            "id": "faq_041",
+            "category": "career",
+            "question": "Are you available for full-time opportunities?",
+            "answer": "Yes. I am currently looking for full-time Software Development and AI Engineering opportunities."
+        },
+        {
+            "id": "faq_042",
+            "category": "career",
+            "question": "What kind of company or team do you want to join?",
+            "answer": "I am interested in teams where I can work on real software products and solve practical engineering problems, especially products involving backend systems, full-stack development, AI applications, LLMs, RAG, or intelligent automation."
+        },
+        {
+            "id": "faq_043",
+            "category": "career",
+            "question": "What are your long-term career goals?",
+            "answer": "My goal is to become a strong AI-focused software engineer who can design and build reliable, scalable applications that combine solid software engineering with modern AI capabilities."
+        },
+        {
+            "id": "faq_044",
+            "category": "certification",
+            "question": "Do you have any certifications?",
+            "answer": "Yes. I completed the HackerRank JavaScript Certificate in 2024."
+        },
+        {
+            "id": "faq_045",
+            "category": "contact",
+            "question": "How can a recruiter contact Khalid?",
+            "answer": "Recruiters can contact Khalid through his email address, LinkedIn profile, or GitHub profile listed in his portfolio."
+        }
+    ]
+}
