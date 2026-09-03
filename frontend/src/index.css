@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: white;
+  background: #020617;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #020617;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+/* Chat scrollbar */
+.chat-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #334155 transparent;
+}
+
+.chat-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 9999px;
+  background: #334155;
+}
+
+.chat-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

@@ -6,7 +6,8 @@
         {
             "id": "faq_001",
             "category": "introduction",
-            "question": "Tell me about yourself.",
+            "featured": true,
+            "question": "Tell me about Khalid.",
             "answer": "I am Md Khalid Ansari, a Computer Science and Engineering graduate with hands-on experience in full-stack development and AI engineering. I work with Python, JavaScript, React.js, Node.js, FastAPI, REST APIs, LangChain, LangGraph, RAG, tool calling, and LLM APIs. During my AI Engineer internship at CalQuity Technologies, I worked on an AI customer support agent using LangGraph, LangChain, RAG, and tool calling. I have also built AI-powered and full-stack projects such as DocuMind-AI, an AI Customer Support Agent, and CodeGyan. I am currently targeting Software Development and AI Engineering opportunities."
         },
         {
@@ -48,7 +49,8 @@
         {
             "id": "faq_008",
             "category": "education",
-            "question": "What is your educational background?",
+            "featured": true,
+            "question": "What is Khalid's educational background?",
             "answer": "I completed a B.E. in Computer Science and Engineering from Chandigarh University, Mohali, from 2021 to 2025. My CGPA is 7.6/10. My relevant coursework includes Data Structures and Algorithms, Computer Networks, DBMS, and Object-Oriented Programming."
         },
         {
@@ -90,7 +92,8 @@
         {
             "id": "faq_015",
             "category": "skills",
-            "question": "What are your strongest technical skills?",
+            "featured": true,
+            "question": "What technical skills does Khalid have?",
             "answer": "My strongest areas are Python, JavaScript, React.js, Node.js, FastAPI, REST APIs, LangChain, LangGraph, RAG, tool calling, LLM API integration, Pydantic, MongoDB, MySQL, and modern full-stack development."
         },
         {
@@ -144,7 +147,8 @@
         {
             "id": "faq_024",
             "category": "projects",
-            "question": "What projects have you built?",
+            "featured": true,
+            "question": "What projects has Khalid built?",
             "answer": "I have built three major projects: DocuMind-AI, an AI-powered learning platform; AI Customer Support Agent, a RAG-based AI agent; and CodeGyan, a full-stack e-learning platform."
         },
         {

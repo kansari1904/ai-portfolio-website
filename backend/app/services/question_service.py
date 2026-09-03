@@ -43,20 +43,7 @@ def _load_faq_data() -> dict[str, Any]:
 
 @lru_cache(maxsize=1)
 def _build_faq_index() -> dict[str, dict[str, str]]:
-    """
-    Build an in-memory FAQ index.
-
-    Example:
-
-        {
-            "faq_001": {...},
-            "faq_002": {...}
-        }
-
-    This gives us O(1) FAQ lookup by ID.
-    """
     faqs = _load_faq_data()["faqs"]
-
     index: dict[str, dict[str, str]] = {}
 
     for faq in faqs:
@@ -94,17 +81,12 @@ def _build_faq_index() -> dict[str, dict[str, str]]:
             "category": category,
             "question": question,
             "answer": answer,
+            "featured": faq.get("featured", False),
         }
 
     return index
 
-
 def get_faq_suggestions() -> list[dict[str, str]]:
-    """
-    Return FAQ questions for the frontend.
-
-    Answers are intentionally excluded.
-    """
     return [
         {
             "id": faq["id"],
@@ -112,6 +94,7 @@ def get_faq_suggestions() -> list[dict[str, str]]:
             "question": faq["question"],
         }
         for faq in _build_faq_index().values()
+        if faq.get("featured") is True
     ]
 
 

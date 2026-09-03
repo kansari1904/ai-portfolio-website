@@ -1,28 +1,65 @@
-# Python
-__pycache__/
-*.py[cod]
-.venv/
+```gitignore
+# ==================================================
+# Environment Variables
+# ==================================================
 
-# Environment
 .env
-.venv
+.env.*
+!.env.example
 
-# RAG storage
-backend/storage/chroma/
-
-# Generated knowledge
-# Keep this commented if you want the portfolio JSON version-controlled.
-# backend/data/knowledge/portfolio.json
-
+# ==================================================
 # Node
+# ==================================================
+
+node_modules/
 frontend/node_modules/
+
+dist/
 frontend/dist/
 
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==================================================
+# Python
+# ==================================================
+
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+
+.pytest_cache/
+.mypy_cache/
+
+# ==================================================
+# RAG / Vector Database
+# ==================================================
+
+backend/storage/chroma/
+backend/chroma_db/
+chroma_db/
+
+# ==================================================
 # IDE
+# ==================================================
+
 .vscode/
 .idea/
 
+# ==================================================
 # OS
+# ==================================================
+
 .DS_Store
 Thumbs.db
 
+# ==================================================
+# Logs
+# ==================================================
+
+*.log
+```
