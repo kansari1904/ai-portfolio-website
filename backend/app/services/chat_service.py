@@ -380,6 +380,7 @@ def process_question(
         },
     }
 
+
 def stream_question(query: str):
 
     query = query.strip()
