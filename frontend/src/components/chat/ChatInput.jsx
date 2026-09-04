@@ -7,7 +7,6 @@ const ChatInput = ({
   disabled = false,
 }) => {
   const textareaRef = useRef(null);
-
   /*
    * Automatically adjust textarea height
    * based on its content.
