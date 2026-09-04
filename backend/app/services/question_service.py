@@ -115,3 +115,29 @@ def get_faq_by_id(faq_id: str) -> dict[str, str]:
         )
 
     return faq
+
+def get_faq_by_question(
+    question: str,
+) -> dict[str, str] | None:
+    """
+    Find an FAQ using an exact normalized question match.
+
+    This does not call:
+    - an LLM
+    - embeddings
+    - ChromaDB
+    """
+
+    normalized_question = " ".join(
+        question.lower().strip().split()
+    )
+
+    for faq in _build_faq_index().values():
+        faq_question = " ".join(
+            faq["question"].lower().strip().split()
+        )
+
+        if normalized_question == faq_question:
+            return faq
+
+    return None

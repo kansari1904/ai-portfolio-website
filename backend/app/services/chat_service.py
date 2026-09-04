@@ -16,6 +16,10 @@ from app.services.llm_service import (
     stream_chat_response,
 )
 
+from app.services.question_service import (
+    get_faq_by_question,
+)
+
 
 
 
@@ -308,20 +312,6 @@ def format_direct_answer(
 def process_question(
     query: str,
 ) -> dict[str, Any]:
-    """
-    Main chat orchestration function.
-
-    Routing:
-
-        FAQ
-          -> faq.json
-
-        DIRECT
-          -> portfolio.json
-
-        RAG
-          -> Chroma -> OpenRouter LLM
-    """
 
     query = query.strip()
 
@@ -330,11 +320,27 @@ def process_question(
             "Question cannot be empty."
         )
 
-    route = classify_question(query)
+    # ==================================================
+    # FAQ route
+    # ==================================================
+
+    faq = get_faq_by_question(query)
+
+    if faq is not None:
+        return {
+            "route": ChatRoute.FAQ,
+            "answer": faq["answer"],
+            "data": {
+                "faq_id": faq["id"],
+                "category": faq["category"],
+            },
+        }
 
     # ==================================================
     # Direct portfolio route
     # ==================================================
+
+    route = classify_question(query)
 
     if route == ChatRoute.DIRECT:
 
@@ -375,24 +381,47 @@ def process_question(
     }
 
 def stream_question(query: str):
+
     query = query.strip()
 
     if not query:
-        raise ValueError("Question cannot be empty.")
+        raise ValueError(
+            "Question cannot be empty."
+        )
+
+    # ==================================================
+    # FAQ route
+    # ==================================================
+
+    faq = get_faq_by_question(query)
+
+    if faq is not None:
+        yield faq["answer"]
+        return
+
+    # ==================================================
+    # Direct portfolio route
+    # ==================================================
 
     route = classify_question(query)
 
-    # Direct questions don't need an LLM.
     if route == ChatRoute.DIRECT:
+
         result = get_direct_answer(query)
 
         if result is not None:
-            answer = format_direct_answer(result)
+
+            answer = format_direct_answer(
+                result
+            )
 
             yield answer
             return
 
+    # ==================================================
     # RAG route
+    # ==================================================
+
     documents = retrieve_documents(
         query=query,
         k=3,
